@@ -13,4 +13,4 @@ Note 04/08/2016:
 multimode-osci_v2.nb compares the use of DFT with RP.  It also includes film dynamics equation and film stability.  Initial work on film stability bifurcation/response diagram has also been included.
 
 Note 04/08/2016:
-bif_ex.nb: Mathematica file that can accompany: http://www.math.colostate.edu/~shipman/47/volume3b2011/M640_MunozAlicea.pdf
+bif_examples.nb: Mathematica file that can accompany: http://www.math.colostate.edu/~shipman/47/volume3b2011/M640_MunozAlicea.pdf
