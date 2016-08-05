@@ -14,3 +14,6 @@ multimode-osci_v2.nb compares the use of DFT with RP.  It also includes film dyn
 
 Note 04/08/2016:
 bif_examples.nb: Mathematica file that can accompany: http://www.math.colostate.edu/~shipman/47/volume3b2011/M640_MunozAlicea.pdf
+
+Note 05/08/2016:
+With multimode-osci_v3.nb, the hope is to start probing the bifurcation and response diagrams for the "growth rate of instabilities" equation and the corresponding "maximizing wavelength" (i.e. roots of dw/dq=0).
