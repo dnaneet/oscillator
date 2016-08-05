@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    255307,       4671]
-NotebookOptionsPosition[    254441,       4639]
-NotebookOutlinePosition[    254806,       4655]
-CellTagsIndexPosition[    254763,       4652]
+NotebookDataLength[    255966,       4685]
+NotebookOptionsPosition[    255100,       4653]
+NotebookOutlinePosition[    255465,       4669]
+CellTagsIndexPosition[    255422,       4666]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -90,7 +90,8 @@ Cell[BoxData[{
   3.679227553049368*^9, 3.6792275758970103`*^9}, {3.679227607617977*^9, 
   3.679227668927744*^9}, {3.679227763767382*^9, 3.6792277687402787`*^9}, {
   3.6792299875002995`*^9, 3.679229987983514*^9}, {3.679234780087835*^9, 
-  3.6792347852138534`*^9}, {3.6792350651970234`*^9, 3.679235088115863*^9}}],
+  3.6792347852138534`*^9}, {3.6792350651970234`*^9, 3.679235088115863*^9}},
+ Background->GrayLevel[0.5]],
 
 Cell[TextData[{
  "Pitchfork bifurcation example: It is known as ",
@@ -100,14 +101,15 @@ Cell[TextData[{
  StyleBox["Saddlenode ",
   FontWeight->"Bold"],
  "bifurcation per Roberto Munez Alicea.  Surprisingly, the terminology varies \
-between textbooks.  The prize for naming this goes to Abraham and Shaw (1988) \
-for calling it ",
+between textbooks.  The prize for naming this type of Bifurcation goes to \
+Abraham and Shaw (1988) for calling it ",
  StyleBox["blue sky bifurcation.",
   FontSlant->"Italic"]
 }], "Text",
  CellChangeTimes->{{3.679405684580627*^9, 3.679405690286573*^9}, {
   3.679405720319323*^9, 3.67940572776787*^9}, {3.67940611152885*^9, 
-  3.6794061451213703`*^9}, {3.6794069438202047`*^9, 3.6794070220460157`*^9}}],
+  3.6794061451213703`*^9}, {3.6794069438202047`*^9, 3.6794070220460157`*^9}, {
+  3.679407454672627*^9, 3.679407456744357*^9}}],
 
 Cell[CellGroupData[{
 
@@ -1459,8 +1461,18 @@ the derivative of the growth rate equation resembles f(x,\[Mu])=\[Mu] x - ",
   FormBox[
    SuperscriptBox["x", "3"], TraditionalForm]],
   FormatType->"TraditionalForm"],
- ".  For the liquid film, \[Mu]=(2 Pm/(1+Bi)^2 - 2 Pm)/Sn.  This \
-demonstrates, what is known as, supercritical ",
+ ".  For the liquid film, \[Mu]=(2 M/(1+Bi)^2 - 2 Pm)/Sn.  Here, Pm is the \
+non-dimensional number governing the strength of porosity, Bi is the Biot \
+number (actually the Nusselt number but ",
+ StyleBox["Biot number",
+  FontSlant->"Italic"],
+ " stuck in liquid film dynamics literature), Sn is the surface tension \
+number (have to check but this could be an ",
+ StyleBox["inverse capillary number ",
+  FontSlant->"Italic"],
+ "or related to it), M is the Marangoni number.  This situation is for zero \
+gravity (The Galileo number, Ga=0).\n\nThis demonstrates, what is known as, \
+supercritical ",
  StyleBox["pitchfork",
   FontWeight->"Bold"],
  " bifurcation.  The non-linear (cubic term) has a stabilizing effect (it is \
@@ -1477,7 +1489,8 @@ stabilizing porosity."
 }], "Text",
  CellChangeTimes->{{3.679405342108583*^9, 3.679405429640833*^9}, {
   3.679406307693437*^9, 3.679406415879966*^9}, {3.679406446936947*^9, 
-  3.6794064940342083`*^9}, {3.679407079104404*^9, 3.67940708421881*^9}}],
+  3.6794064940342083`*^9}, {3.679407079104404*^9, 3.67940708421881*^9}, {
+  3.679407471401122*^9, 3.679407578151299*^9}}],
 
 Cell[BoxData[
  FormBox[
@@ -1485,12 +1498,13 @@ Cell[BoxData[
    FractionBox[
     RowBox[{
      FractionBox[
-      RowBox[{"2", " ", "Pm"}], 
+      RowBox[{"2", " ", "M"}], 
       SuperscriptBox[
        RowBox[{"(", 
         RowBox[{"Bi", "+", "1"}], ")"}], "2"]], "-", 
      RowBox[{"2", " ", "Pm"}]}], "Sn"]}], TraditionalForm]], "Input",
- CellChangeTimes->{{3.6794054078652887`*^9, 3.679405436853758*^9}}],
+ CellChangeTimes->{{3.6794054078652887`*^9, 3.679405436853758*^9}, 
+   3.6794075606906967`*^9}],
 
 Cell[CellGroupData[{
 
@@ -4655,23 +4669,23 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[558, 20, 214, 4, 38, "Text"],
-Cell[775, 26, 2587, 66, 189, "Input"],
-Cell[3365, 94, 651, 15, 63, "Text"],
+Cell[775, 26, 2616, 67, 209, "Input"],
+Cell[3394, 95, 720, 16, 63, "Text"],
 Cell[CellGroupData[{
-Cell[4041, 113, 2090, 65, 214, "Input"],
-Cell[6134, 180, 451, 14, 47, "Output"],
-Cell[6588, 196, 71353, 1255, 297, "Output"]
+Cell[4139, 115, 2090, 65, 214, "Input"],
+Cell[6232, 182, 451, 14, 47, "Output"],
+Cell[6686, 198, 71353, 1255, 297, "Output"]
 }, Open  ]],
-Cell[77956, 1454, 1287, 25, 140, "Text"],
-Cell[79246, 1481, 363, 11, 96, "Input"],
+Cell[78054, 1456, 1821, 36, 238, "Text"],
+Cell[79878, 1494, 390, 12, 96, "Input"],
 Cell[CellGroupData[{
-Cell[79634, 1496, 2737, 79, 239, "Input"],
-Cell[82374, 1577, 595, 13, 47, "Output"],
-Cell[82972, 1592, 142517, 2472, 290, "Output"]
+Cell[80293, 1510, 2737, 79, 239, "Input"],
+Cell[83033, 1591, 595, 13, 47, "Output"],
+Cell[83631, 1606, 142517, 2472, 323, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[225526, 4069, 1286, 38, 89, "Input"],
-Cell[226815, 4109, 27610, 527, 302, "Output"]
+Cell[226185, 4083, 1286, 38, 89, "Input"],
+Cell[227474, 4123, 27610, 527, 302, "Output"]
 }, Open  ]]
 }
 ]
