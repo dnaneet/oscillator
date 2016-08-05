@@ -17,3 +17,6 @@ bif_examples.nb: Mathematica file that can accompany: http://www.math.colostate.
 
 Note 05/08/2016:
 With multimode-osci_v3.nb, the hope is to start probing the bifurcation and response diagrams for the "growth rate of instabilities" equation and the corresponding "maximizing wavelength" (i.e. roots of dw/dq=0).
+
+Note 05/08/2016:
+film_saddlenode.nb depicts saddlenode bifurcation of the derivative of the "growth rate of long wave instabilities" equation.  
