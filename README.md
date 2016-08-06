@@ -20,3 +20,6 @@ With multimode-osci_v3.nb, the hope is to start probing the bifurcation and resp
 
 Note 05/08/2016:
 film_saddlenode.nb depicts saddlenode bifurcation of the derivative of the "growth rate of long wave instabilities" equation.  
+
+Note 06/08/2016:
+dynamic_module_pitchfork_bif.nb explores the pitchfork bifurcation through the MATHEMATICA DynamicModule and Manipulate functionality.
