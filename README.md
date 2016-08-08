@@ -23,3 +23,6 @@ film_saddlenode.nb depicts saddlenode bifurcation of the derivative of the "grow
 
 Note 06/08/2016:
 dynamic_module_pitchfork_bif.nb explores the pitchfork bifurcation through the MATHEMATICA DynamicModule and Manipulate functionality.
+
+Note 08/08/2016:
+film_pitchfork.nb Has pitchfork bifurcation for all effects included.  Currently working on trying to set up a dynamic module that shows pitchfork bifurcation and growth rates as the value of either mu or lambda are changed.
