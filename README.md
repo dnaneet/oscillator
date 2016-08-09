@@ -32,3 +32,6 @@ film_pitchfork.nb Has pitchfork bifurcation for all effects included.  Currently
 
 Note 09/08/2016:
 bif_examples.nb: Included solved examples from Strogatz.  Particularly useful are the examples that plot the potential well for different linear systems.  This may be used for film evolution growth rate equation as well.
+
+Note 09/08/2016 (3.45pm ET)'
+film_bif_09082016.nb: shows bifurcation for growth rate equation for both with and without Porosity
