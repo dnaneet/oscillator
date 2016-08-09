@@ -33,5 +33,8 @@ film_pitchfork.nb Has pitchfork bifurcation for all effects included.  Currently
 Note 09/08/2016:
 bif_examples.nb: Included solved examples from Strogatz.  Particularly useful are the examples that plot the potential well for different linear systems.  This may be used for film evolution growth rate equation as well.
 
-Note 09/08/2016 (3.45pm ET)'
+Note 09/08/2016 (3.45pm ET)
 film_bif_09082016.nb: shows bifurcation for growth rate equation for both with and without Porosity
+
+Note 09/08/2016 (7.30pm ET)
+film_pitchfork_v31.nb and film_pitchfork_v32.nb explore the pitchfork bifurcation f(x,mu,lambda) = mu x^2 - x^4 + lambda.  For lambda=0, we have Krishnamoorthy's case (may have Ga=0 or Ga>0).  With lambda=-0.1, we have a Porous substrate.
