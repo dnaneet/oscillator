@@ -1,6 +1,9 @@
 # oscillator
 Feel free to use these mathematica files that solve non-linear oscillator differential equations.  I do not promise anything with these files and the onus is on you to check their correctness for your application.
 
+***********************
+Date format: dd/mm/yyy*
+***********************
 Note 29/07/2016:
 
 duffing_rp_v5.nb is a much more refined duffing oscillator simulation. It allows for clarity in multimode forcing, and the use of recurrence plots in quantifying the multimode forcing and their dissipation for a non zero damping term (when introduced into duffing osci equation).
@@ -26,3 +29,6 @@ dynamic_module_pitchfork_bif.nb explores the pitchfork bifurcation through the M
 
 Note 08/08/2016:
 film_pitchfork.nb Has pitchfork bifurcation for all effects included.  Currently working on trying to set up a dynamic module that shows pitchfork bifurcation and growth rates as the value of either mu or lambda are changed.
+
+Note 09/08/2016:
+bif_examples.nb: Included solved examples from Strogatz.  Particularly useful are the examples that plot the potential well for different linear systems.  This may be used for film evolution growth rate equation as well.
