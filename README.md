@@ -38,3 +38,6 @@ film_bif_09082016.nb: shows bifurcation for growth rate equation for both with a
 
 Note 09/08/2016 (7.30pm ET)
 film_pitchfork_v31.nb and film_pitchfork_v32.nb explore the pitchfork bifurcation f(x,mu,lambda) = mu x^2 - x^4 + lambda.  For lambda=0, we have Krishnamoorthy's case (may have Ga=0 or Ga>0).  With lambda=-0.1, we have a Porous substrate.
+
+Note 10/08/2016:
+duffing_film.nb: Duffing oscillator equivalent of maximizing wavelength equation.
