@@ -41,3 +41,6 @@ film_pitchfork_v31.nb and film_pitchfork_v32.nb explore the pitchfork bifurcatio
 
 Note 10/08/2016:
 duffing_film.nb: Duffing oscillator equivalent of maximizing wavelength equation.
+
+Note 11/08/2016:
+DFT_vs_RP.nb: Comparison of DFT vs recurrence plot
