@@ -44,3 +44,6 @@ duffing_film.nb: Duffing oscillator equivalent of maximizing wavelength equation
 
 Note 11/08/2016:
 DFT_vs_RP.nb: Comparison of DFT vs recurrence plot
+
+Note 12/08/2016:
+3M_v2.nb: Latest mathematica presentation for 3M
